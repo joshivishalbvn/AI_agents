@@ -36,4 +36,8 @@ sudo docker rm -f ollama
 
 and now again start :
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+
+docker start portainer
+docker start ollama
+
 """
